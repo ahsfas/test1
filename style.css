@@ -1,0 +1,46 @@
+.header {
+	display: flex;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu p {
+	padding: 25px;
+}
+
+.search-bar {
+	flex-grow: 1;
+	padding: 30px;
+}
+
+.food-options {display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.picture {
+	width: 300px;
+	height: 400px;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+}
+.recipe {
+	display: flex;
+	background-color: #F5F5F1;
+	width:70%;
+	border-radius: 20px; 
+	overflow: hidden;
+}
+.list {display: flex;
+	flex-direction: column;
+	padding: 20px; 
+}
+.recipename {
+	font-family: garamond; 
+	font-size: 50px;
+}
